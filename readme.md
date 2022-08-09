@@ -6,3 +6,7 @@ You can too navigate to the file location through the terminal and search for hi
 ## Note 📒
 
 If you OS is in a different language than english you need to change to portuguese or in the contrary the script will not work.
+
+### Challenge based in this repo:
+
+https://github.com/grschroder/shareit

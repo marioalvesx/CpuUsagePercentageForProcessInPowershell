@@ -1,5 +1,8 @@
+# Capturing all active processess 
 $processes = Get-Counter '\Process(*)\% Processor Time'
+# Getting the number of logical processors
 $cpu_cores = (Get-WMIObject Win32_ComputerSystem).NumberOfLogicalProcessors
+# Getting the percentage proposed by the challenge
 $tenpercent = ($cpu_cores * 100) * 0.10
 foreach ($process in $processes.countersamples) {
   # $process.InstanceName
